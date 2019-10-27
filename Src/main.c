@@ -25,6 +25,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "network.h"
 #include "utils.h"
 /* USER CODE END Includes */
 
@@ -349,6 +350,7 @@ void StartDefaultTask(void const * argument)
 	MX_LWIP_Init();
 
 	/* USER CODE BEGIN 5 */
+	vNetworkTcpInit();
 	/* Infinite loop */
 	for(;;)
 	{
