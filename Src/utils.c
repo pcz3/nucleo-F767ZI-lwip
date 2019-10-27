@@ -16,7 +16,7 @@ TaskHandle_t xHeartbeatTask = NULL;
  */
 static void prvUtilsHeartbeatTask(void *pvParameters)
 {
-	static uint16_t usDelay = 500;
+	uint16_t usDelay = 500;
 
 	for (;;)
 	{

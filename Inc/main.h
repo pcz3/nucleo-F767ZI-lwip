@@ -47,7 +47,7 @@ extern "C" {
 
 /* Exported macro ------------------------------------------------------------*/
 /* USER CODE BEGIN EM */
-
+#define HARA_KIRI()		vTaskDelete(NULL)
 /* USER CODE END EM */
 
 /* Exported functions prototypes ---------------------------------------------*/
